@@ -11,7 +11,7 @@ This project contains a simple bash file(`install.sh`) that installs a Redis clu
 
 ## Installation
 
-1. **Be sure to be in the correct kubernetes context and namespace before proceeding**. You cen set the default context
+1. **Be sure to be in the correct kubernetes context and namespace before proceeding**. You can set the default context
  and namespace with the following command `kubectl config set-context --current --namespace=[your_target_namespace]`
 
 2. Execute `. install.sh` to have Redis installed in your target namespace. After 60 seconds you will see the first Sentinel

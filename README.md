@@ -21,7 +21,7 @@ This project contains a simple bash file(`install.sh`) that installs a Redis clu
 
 ```yaml
 REDIS_ACTIVE: true
-REDIS_ADDRESSES: redis-node-0.redis-headless.[app_name].svc.cluster.local:26379,redis-node-1.redis-headless.[app_name].svc.cluster.local:2637
+REDIS_ADDRESSES: redis-node-0.redis-headless.[namespace].svc.cluster.local:26379,redis-node-1.redis-headless.[namespace].svc.cluster.local:26379
 ```
 
 ## Customizations

@@ -2,6 +2,8 @@
 
 This project contains a simple bash file(`install.sh`) that installs a Redis cluster with Sentinel using Helm.
 
+All this work comes from https://bitnami.com/stack/redis which is used as the base system for Entando-Redis integration. Please have a look at their official documentation to learn more: https://docs.bitnami.com/general/infrastructure/redis/
+
 ## Prerequisites
 
 - Helm 3

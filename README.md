@@ -24,6 +24,7 @@ All this work comes from https://bitnami.com/stack/redis which is used as the ba
 ```yaml
 REDIS_ACTIVE: true
 REDIS_ADDRESSES: redis-node-0.redis-headless.[namespace].svc.cluster.local:26379,redis-node-1.redis-headless.[namespace].svc.cluster.local:26379,redis-node-2.redis-headless.[namespace].svc.cluster.local:26379
+REDIS_SESSION_ACTIVE: true
 ```
 
 ## Customizations
